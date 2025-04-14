@@ -17,7 +17,9 @@ body {
     /* background: url(../images/bg-1.jpeg);
     background-repeat: no-repeat;
     background-size: cover; */
-    margin: 50px auto;
+    margin: 90px auto;
+    justify-content: center;
+    align-items: center;
     border-radius: 20px;
     color: #000;
 }
