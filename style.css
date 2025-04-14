@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background: #fff;
+    font-family: "Roboto", sans-serif;
+}
+
+.resume-main {
+    height: 160vh;
+    width: 800px;
+    background: linear-gradient(45deg, #f0f5f5, #11686e);
+    /* background: url(../images/bg-1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    margin: 50px auto;
+    border-radius: 20px;
+    color: #000;
+}
+
+.left {
+    width: 490px;
+    float: left;
+    margin-top: 25px;
+    padding: 25px 0px 0px 35px;
+
+}
+
+.right {
+    width: 250px;
+    float: left;
+    padding: 25px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #1d1715;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.fa {
+    color: #12054b;
+}
+
+.p1 {
+    line-height: 10px;
+    margin: 3px;
+}
+
+.heading {
+    background: linear-gradient(45deg, #f8f8fd, #021a5c);
+    padding: 3px;
+    width: 230px;
+    margin-left: 35px;
+    margin-right: 15px;
+    color: black;
+    border-radius: 0px 20px 20px 0px;
+    text-transform: uppercase;
+    letter-spacing: 1x;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.heading .fa {
+    color: white;
+}
+
+.s {
+    width: 22%;
+    float: left;
+    margin-top: 10px;
+}
+
+.h3 {
+    margin-top: 10px;
+}
+
+.circle {
+    width: 10%;
+    float: left;
+    margin-top: 10px;
+}
+
+.con {
+    width: 40%;
+    float: left;
+    margin-top: 5px;
+}
+
+.cir {
+    width: 15px;
+    height: 10px;
+    background: linear-gradient(45deg, #684efa, #080672);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.s p {
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #111010;
+    font-size: 14px;
+}
+
+.con h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #0c0b0b;
+    font-size: 14px;
+}
+
+.con p {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #3c3939;
+    margin-bottom: 2px;
+}
+
+.icon-main-box {
+    margin-left: -22px;
+}
+
+.icon-box {
+    width: 15%;
+    float: left;
+    padding: 15px;
+    border: 20px 20px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+.icon-box .fa {
+    background-color: white;
+    font-size: 20px;
+    color: white;
+    gap: 5px;
+    border-radius: 10px;
+}
+
+.icon-box p {
+    margin: 0;
+    padding: 5px;
+    gap: 3px;
+    font-size: 12px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    color: #131010;
+}
+
+.right {
+    width: 300px;
+    float: right;
+    padding: 25px;
+}
+
+.profile {
+    position: relative;
+    height: 200px;
+}
+
+.profile img {
+    width: 160px;
+    color: #000;
+    border-radius: 50%;
+    left: 77px;
+    position: absolute;
+    top: 18px;
+}
+
+.name {
+    font-size: 37px;
+    text-align: center;
+    color: #2e2d2d;
+    margin-bottom: 3px;
+}
+
+.name span {
+    color: #03011f;
+}
+
+.h2 {
+    color: #021a5c;
+    margin-top: 0px;
+    font-weight: 400px;
+    text-align: center;
+}
+
+.p2 {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+h1 .fa {
+    background: #080672;
+    padding: 10px 13px;
+    font-size: 20px;
+    color: white;
+    border-radius: 27px;
+    float: right;
+    margin-top: -5px;
+}
+
+#progress {
+    background: #14141447;
+    border-radius: 13px;
+    height: 9px;
+    width: 100%;
+}
+
+#progress:after {
+    content: '';
+    display: block;
+    background: linear-gradient(45deg, #080672, #f8fbfd);
+    width: 80%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+#progress1 {
+    background: #14141447;
+    border-radius: 13px;
+    height: 9px;
+    width: 100%;
+}
+
+#progress1:after {
+    content: '';
+    display: block;
+    background: linear-gradient(45deg, #080672, #f8f8fd);
+    width: 40%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+#progress2 {
+    background: #14141447;
+    border-radius: 13px;
+    height: 9px;
+    width: 100%;
+}
+
+#progress2:after {
+    content: '';
+    display: block;
+    background: linear-gradient(45deg, #080672, #f8f8fd);
+    width: 70%;
+    height: 100%;
+    border-radius: 9px;
+}
